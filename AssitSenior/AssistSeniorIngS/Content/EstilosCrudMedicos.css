@@ -1,0 +1,38 @@
+﻿
+.Fondo {
+    background-image: url(../Content/Imagenes/medicos.jpg);
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualizaciÃ³n para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se estÃ¡ cargando la imagen
+
+    de fondo o si hay problemas para cargarla */
+    background-color: #66999;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0;
+}
+
+
+.modal-content {
+    background: rgba(033, 033, 033, 0.8);
+    padding: 0 18px;
+    border-radius: 5px;
+}
+
+
+.user-img img {
+    height: 160px;
+    width: 180px;
+}
+
+.user-img {
+    margin-bottom: 20px;
+}

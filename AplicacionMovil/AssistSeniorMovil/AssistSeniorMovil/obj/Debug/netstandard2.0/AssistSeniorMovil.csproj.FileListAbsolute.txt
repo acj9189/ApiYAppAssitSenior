@@ -1,0 +1,53 @@
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.deps.json
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\MenuInicioView.xaml.g.cs
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfoInputs.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfo.cs
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CopyComplete
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\ConsultarTurnoView.xaml.g.cs
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\TurnoView.xaml.g.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.deps.json
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csprojAssemblyReference.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\ConsultarTurnoView.xaml.g.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\MenuInicioView.xaml.g.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\TurnoEnfermeroView.xaml.g.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfoInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfo.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CopyComplete
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.deps.json
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csprojAssemblyReference.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\ConsultarTurnoView.xaml.g.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\MenuInicioView.xaml.g.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\TurnoEnfermeroView.xaml.g.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.AssemblyInfo.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.csproj.CopyComplete
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.dll
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\AssistSeniorMovil.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\ValidarTurnoView.xaml.g.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorMovil\AssistSeniorMovil\obj\Debug\netstandard2.0\View\BuscarEnfermeroView.xaml.g.cs

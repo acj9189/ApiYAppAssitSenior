@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AssistSeniorMovil.View.ValidarTurnoView"
+               BindingContext="{Binding Main, Source={StaticResource Key=Locator}}" 
+             Title="Horarios">
+    <ContentPage.Content>
+        <StackLayout BindingContext="{Binding ValidarTurno}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0">
+                    <Label FontAttributes="Bold"
+                                       FontSize="20"
+                                       Text="Cedula:"
+                                       TextColor="Black"
+                                       HorizontalTextAlignment="Center">
+                    </Label>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Label FontAttributes="Bold"
+                                       FontSize="20"
+                                       Text="{Binding Cedula}"
+                                       TextColor="Black"
+                                       >
+                    </Label>
+                </StackLayout>
+            </Grid>
+            <ListView ItemsSource="{Binding TurnosEnfermeros}" IsRefreshing="{Binding IsRefreshing}" SelectionMode="None" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout VerticalOptions="Center" Grid.Column="0">
+                                    <Label
+                                       FontSize="15"
+                                       Text="{Binding FechaCompleta}"
+                                       TextColor="Black">
+
+
+                                    </Label>
+                                </StackLayout>
+
+
+                                <Switch IsToggled="{Binding Selected}" Grid.Column="1"/>
+
+
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

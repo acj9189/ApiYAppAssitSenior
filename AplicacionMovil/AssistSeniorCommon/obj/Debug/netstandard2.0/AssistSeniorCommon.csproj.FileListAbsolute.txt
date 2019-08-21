@@ -1,0 +1,27 @@
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.deps.json
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfoInputs.cache
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfo.cs
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\Julie Rios\Desktop\Software3\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.deps.json
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csprojAssemblyReference.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfoInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfo.cs
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\CuartaEntrega\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.deps.json
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\bin\Debug\netstandard2.0\AssistSeniorCommon.pdb
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csprojAssemblyReference.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.AssemblyInfo.cs
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.dll
+C:\Users\user\Desktop\AplicacionMovil\AssistSeniorCommon\obj\Debug\netstandard2.0\AssistSeniorCommon.pdb

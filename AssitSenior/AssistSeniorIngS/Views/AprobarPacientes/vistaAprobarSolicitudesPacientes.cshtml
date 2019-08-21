@@ -1,0 +1,154 @@
+﻿@using Dominio.EntidadesDominio;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <title> Solicitudes de Pacientes </title>
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background: #8ba987 fixed no-repeat center center;
+            background-image: url("../../Content/Imagenes/solPacientes.jpg");
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    @{
+        if (ViewBag.MensajeApDe != null)
+        {
+            <script>
+                alert("@ViewBag.MensajeApDe");
+            </script>
+        }
+    }
+
+
+    @if (ViewData["listaPacientes"] != null)
+    {
+        <div class="text-center" style="border-top:20px">
+            <h1 class="text-center" style="color: black; background: rgba(1, 166, 42, 0.85)"> ... Posibles Pacientes ... </h1>
+        </div>
+        <br /> <br />
+
+        <div class="container">
+            <div class="col-xs-8">
+
+                <table id="tablaPacientes" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="text-center">     </th>
+                            <th scope="col" class="text-center"> Cedula </th>
+                            <th scope="col" class="text-center"> Nombre </th>
+                            <th scope="col" class="text-center"> Apellido </th>
+                            <th scope="col" class="text-center"> Invalidez </th>
+                            <th scope="col" class="text-center"> Decisión </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            int num = 0;
+                            foreach (var i in (ViewData["listaPacientes"] as IEnumerable<Paciente>))
+                            {
+                                num = num + 1;
+                                Html.BeginForm("vistaAprobarSolicitudesPacientes", "AprobarPacientes");
+                                <tr class="text-center bg-light" style="opacity: 0.8" ;>
+                                    <td> @num </td>
+                                    <td> @i.cedula </td>
+                                    <td> @i.nombre </td>
+                                    <td> @i.apellido </td>
+                                    <td> @i.invalidez </td>
+                                    <td class="text-center bg-light">
+                                        <input type="hidden" name="cedula" value="@i.cedula" />
+                                        <button id="btnAnalizar" class="btn btn-danger" style="background-color:burlywood"> Analizar </button>
+                                    </td>
+                                </tr>
+                                Html.EndForm();
+                            }
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    }
+
+    @if (ViewData["InfoPaciente"] != null)
+    {
+
+        <div class="text-center" style="border-top:20px; background: rgba(1, 166, 42, 0.85)">
+            <h1 class="text-center" style="color: black"> ... Solicitud ...  </h1>
+        </div>
+        <br /> <br />
+
+        <div class="container">
+            <div class="col-xs-8">
+
+                <table id="tablaPaciente" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="text-center"> Cedula </th>
+                            <th scope="col" class="text-center"> Nombre </th>
+                            <th scope="col" class="text-centert"> Apellido </th>
+                            <th scope="col" class="text-center"> Dirección </th>
+                            <th scope="col" class="text-center"> Edad </th>
+                            <th scope="col" class="text-center"> Teléfono </th>
+                            <th scope="col" class="text-center"> Género </th>
+                            <th scope="col" class="text-center"> Descripción</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            var datos = (Paciente)ViewData["InfoPaciente"];
+                            <tr class="text-center bg-light" style="opacity: 0.8" ;>
+                                <td> @datos.cedula </td>
+                                <td> @datos.nombre </td>
+                                <td> @datos.apellido </td>
+                                <td> @datos.direccion </td>
+                                <td> @datos.edad </td>
+                                <td> @datos.telefono </td>
+                                <td> @datos.genero </td>
+                                <td> @datos.descripcion </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        Html.BeginForm("estado", "AprobarPacientes");
+        <div class="text-center" style="color:black">  
+            <div>
+                <input type="hidden" name="cedula" value="@datos.cedula" />
+                <button id="btnAprobar" class="btn btn-danger" style="background-color:green" name="estado" value="Aprobar"> Aprobar </button>
+                <button id="btnDesaprobar" class="btn btn-danger" style="background-color:red" name="estado" value="Desaprobar"> Desaprobar </button>
+            </div>
+        </div>
+        Html.EndForm();
+
+    }
+
+</body>
+
+</html>

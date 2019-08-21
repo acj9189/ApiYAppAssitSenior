@@ -1,0 +1,172 @@
+﻿
+.main-section {
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0;
+}
+
+
+.modal-content {
+    background: rgba(033, 033, 033, 0.8);
+    padding: 0 18px;
+    border-radius: 5px;
+}
+
+.user-img img {
+    height: 120px;
+    width: 120px;
+}
+
+.user-img {
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+
+.Register {
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+}
+
+.FondoLogin {
+    background-image: url(Imagenes/FondoLogin1.jpg);
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualizaciÃ³n para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se estÃ¡ cargando la imagen
+
+    de fondo o si hay problemas para cargarla */
+    background-color: #669999;
+}
+
+.main-header {
+    /*background: rgba(033, 033, 033, 0.8);*/
+    background-image: url(Imagenes/Banner.PNG);
+    width: 100%;
+    opacity: 0.85;
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    height: 140px;
+}
+
+
+footer {
+    width: 100%;
+    font-family: Raleway;
+}
+
+.footer-container {
+    width: 100%;
+    background: #272727;
+    color: #fff;
+}
+
+.footer-main {
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+    width: calc(100% / 3);
+    text-align: justify;
+}
+
+.footer-main .footer-columna:nth-child(2) {
+    padding: 0 20px;
+}
+
+.footer-main .footer-columna h3 {
+        font-size: 32px;
+        color: #00C6EE;
+        margin-bottom: 20px;
+}
+
+.footer-main .footer-columna input[type="email"] {
+    border: none;
+    width: 100%;
+    border: 1px solid #00C6EE;
+    font-size: 14px;
+    padding: 10px;
+    font-family: Raleway;
+}
+
+.footer-main .footer-columna input[type="submit"] {
+    border: none;
+    background: #00C6EE;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor:pointer;
+    font-family: Raleway;
+}
+
+
+.footer-main .footer-columna span p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: Ralewway;
+}
+
+
+.footer-copy-redes {
+    width: 100%;
+    background: #000;
+    border-top: 3px solid #fff;
+}
+
+
+.main-copy-redes {
+    width: 98%;
+    max-width: 1000px;
+    padding: 15px 0;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.main-copy-redes .footer-copy {
+    width: 70%;
+    color: #fff;
+}
+
+.main-copy-redes .footer-redes {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.main-copy-redes .footer-redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+

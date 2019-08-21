@@ -1,0 +1,22 @@
+﻿.Caja {
+    background: rgba(033, 033, 033, 0.85) /* Green background with 30% opacity */
+}
+
+.CajaTitulo {
+    background: rgba(1, 166, 42, 0.85) /* Green background with 30% opacity */
+}
+
+.Fondo {
+    background-image: url(Imagenes/fondoCita.jpg);
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualizaciÃ³n para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se estÃ¡ cargando la imagen
+
+    de fondo o si hay problemas para cargarla */
+    background-color: #669999;
+}

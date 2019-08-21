@@ -1,0 +1,124 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="~/Scripts/subirfire.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.3.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/EstilosRegistro.css" rel="stylesheet" type="text/css" />
+    <title> Registro Ënfermeros </title>
+</head>
+<body class="FondoRegistro">
+
+    <div class="container FormularioPaciente">
+        <div class="col-sm-8 mx-auto">
+            <div class="card mt-5  CajaFormulario">
+                <div class="card-body">
+                    <h3 class="text-center">
+                        <asp:span class="fa fa-user-plus" style="color:beige"> Formulario De Registro De Enfermeros </asp:span>
+                    </h3>
+                    <br />
+                    <p class="alert-danger"> @ViewData["MsjSolicitudRegistro"] </p>
+                    <asp:Label for="text" style="color:beige" class="offset-1" /> Datos Personales </asp:Label>
+
+                    @{ Html.BeginForm("RegistrarEnfermeros", "RegistroEnfermero"); }
+                    <br />
+
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige"> Nombre * </asp:Label>
+                        <input name="nombre" value="" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige"> Apellido *  </asp:Label>
+                        <input name="apellido" value="" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige"> Cedula *  </asp:Label>
+                        <input name="cedula" id="cedula" value="" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige" /> Edad * </asp:Label>
+                        <input name="edad" type="number" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige" /> Direccion  </asp:Label>
+                        <input name="direccion" value="" class="form-control" style="color:black">
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige" /> Telefono  </asp:Label>
+                        <input name="telefono" value="" class="form-control" style="color:black">
+                    </div>
+                    <div class="row col-12">
+                        <div class="form-group col-5 offset-2">
+                            <asp:Label for="text" style="color:beige"> Fecha Nacimiento *  </asp:Label>
+                            <input name="fechaNacimiento" type="date" class="form-control" style="color:black" required>
+                        </div>
+                        <div class="form-group col-4 offset-1">
+                            <asp:Label for="text" style="color:beige"> Sexo * </asp:Label>
+                            <br />
+                            <label style="color:beige"><input type="radio" name="sexo" value="M" checked>Masculino</label>
+                            <br />
+                            <label style="color:beige"><input type="radio" name="sexo" value="F">Femenino</label>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+                    <asp:Label for="text" style="color:beige" class="offset-1"> Informacion De Cuenta </asp:Label>
+                    <hr style="background-color:azure" class=" col-10 offset-1" />
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="text" style="color:beige"> Email * </asp:Label>
+                        <input name="email" type="email" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="password" class="fa fa-unlock-alt" style="color:beige"> Contraseña * </asp:Label>
+                        <input name="password" type="password" class="form-control" style="color:black" required>
+                    </div>
+                    <div class="form-group col-8 offset-2">
+                        <asp:Label for="password" class="fa fa-unlock-alt" style="color:beige"> Confirme Su Contraseña * </asp:Label>
+                        <input name="password2" type="password" class="form-control" style="color:black" required>
+                    </div>
+                    <br />
+
+
+                    <button id="btnRegistro" align="center" class="btn btn-success btn-lg" style="width: auto"> Solicitar Cuenta </button>
+
+                    @{ Html.EndForm(); }
+
+                    <div style="margin-top:10px" id="divSubir">
+                        <label class="upload-group" style="color:beige">
+                            <input type="file" id="file" class="btn btn-info">
+                        </label>
+                        <button id="uploadButton" align="center" class="btn btn-info btn-lg" onclick="uploadFile()" style="width:auto; margin-left:3%"> Subir hoja de vida </button>
+                        <br />
+                    </div>
+
+                    <script>
+                        var config = {
+                            apiKey: "AIzaSyA4wwYqVnY3f9MavfOAvKlR_YSei9FBnq0",
+                            authDomain: "uploadfiletest-b3814.firebaseapp.com",
+                            databaseURL: "https://uploadfiletest-b3814.firebaseio.com",
+                            projectId: "uploadfiletest-b3814",
+                            storageBucket: "uploadfiletest-b3814.appspot.com",
+                            messagingSenderId: "13214318803"
+                        };
+
+                        firebase.initializeApp(config);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

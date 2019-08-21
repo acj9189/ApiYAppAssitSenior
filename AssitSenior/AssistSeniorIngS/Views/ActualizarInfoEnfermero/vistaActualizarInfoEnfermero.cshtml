@@ -1,0 +1,93 @@
+﻿@using Dominio.EntidadesDominio
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/EstilosActualizarPerfiles.css" rel="stylesheet" type="text/css" />
+
+        <title> Actualizar Informacion Enfermero </title>
+    </head>
+
+    <body class="Fondo">
+
+        <br />
+        <h3 class="text-center" style="color:black"> Información Perfil </h3>
+        <br />
+
+        <div class="row col-sm-10 offset-1 Caja">
+            <div class="col-sm-6 offset-1" style="margin-top: 1%">
+                <div class="card">
+                    <div class="card-body">
+                        @{
+                            var datos = (Enfermero)ViewData["infoActualizarEnfermero"];
+
+                            <h5 class="card-title">Cedula</h5>
+                            <input name="cedula" value="@datos.cedula" class="form-control" style="color:black" readonly="readonly" />
+
+                            <br />
+
+                            <h5 class="card-title">Nombre</h5>
+                            <input name="nombre" value="@datos.nombre" class="form-control" style="color:black" readonly="readonly" />
+
+                            <br />
+
+                            <h5 class="card-title">Apellido</h5>
+                            <input name="apellido" value="@datos.apellido" class="form-control" style="color:black" readonly="readonly" />
+
+                            <br />
+
+                            <h5 class="card-title">Edad</h5>
+                            <input name="edad" value="@datos.edad" class="form-control" style="color:black" readonly="readonly" />
+
+                            <br />
+
+                            <h5 class="card-title">FechaNacimiento</h5>
+                            <input name="fechaNacimiento" value="@datos.fechaNacimiento" class="form-control" style="color:black" readonly="readonly" />
+
+                            <br />
+
+                            <h5 class="card-title">Email</h5>
+                            <input value="@datos.email" class="form-control" style="color:black" readonly="readonly" />
+
+
+                        }
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-4" style="margin-top: 1%">
+                <div class="card">
+                    <div class="card-body">
+                        @{ Html.BeginForm("ActualizarInfoEnfermero", "ActualizarInfoEnfermero"); }
+                        <input name="email" value="@datos.email" type="hidden" />
+
+                        <h5 class="card-title">Telefono</h5>
+                        <input name="telefono" value="@datos.telefono" class="form-control" style="color:black" />
+                        <br />
+
+                        <h5 class="card-title">Direccion</h5>
+                        <input name="direccion" value="@datos.direccion" class="form-control" style="color:black" />
+                        <br />
+
+                        <button id="btnActualizar" class="btn btn-success btn-lg" align="center"> Actualizar Info </button>
+                        @{ Html.EndForm(); }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,266 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="~/Scripts/ScriptAgendarTurnos.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/EstilosAgendarTurnos.css" rel="stylesheet" type="text/css" />
+
+
+    <title> Agendar Turnos  </title>
+
+</head>
+
+    <body class="Fondo">
+
+        @{
+            if (ViewBag.MensajeAgenda != null)
+            {
+                <script>
+                    alert("@ViewBag.MensajeAgenda");
+                </script>
+            }
+        }
+
+
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+
+                    @{
+
+                        if (ViewData["mostrarTabla"] != null)
+                        {
+                            <h5 align="center" class="card-title fa fa-calendar fa-lg" style="margin-top:10px; color:azure"> Agendar </h5>
+
+                            <div class="row">
+
+                                <div class="col-xs-4 offset-1">
+                                    <img alt="" src="https://social.msdn.microsoft.com/Forums/getfile/1246342" />
+                                </div>
+
+
+                                <div class="text-right" style="margin-left:30%">
+                                    <button id="btnAgendarTurnos" class="btn btn-success btn-lg" style="margin-bottom:3%">  Agendar </button>
+                                </div>
+
+                            </div>
+                        }
+
+                        else
+                        {
+                            <h5 align="center" class="card-title fa fa-user fa-lg" style="margin-top:10px; color:azure"> Agendar turnos A: </h5>
+
+                            <div class="row" style="margin-bottom:20px; margin-top: 1px">
+
+                                <div class="text-left" style="margin-left:8%">
+                                    @{ Html.BeginForm("ListarEnfermeros", "AgendarTurnos");}
+                                    <button id="btnEnfermeros" class="btn btn-success btn-lg" align="center"> Enfermeros </button>
+                                    @{ Html.EndForm();}
+                                </div>
+
+                                <div class="text-right" style="margin-left:5%">
+                                    @{ Html.BeginForm("ListarMedicos", "AgendarTurnos");}
+                                    <button id="btnMedicos" class="btn btn-success btn-lg" style="margin-bottom:3%">  Medicos </button>
+                                    @{ Html.EndForm();}
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+
+        @{
+            if (ViewBag.listaMedicos != null)
+            {
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-8 main-section">
+                        <div class="modal-content">
+
+                            <div class="col-12 user-img">
+                                <img src="~/Content/Imagenes/Logo.png" />
+                            </div>
+
+                            <h3 class="text-center" style="color:beige"> Agentar Turnos Medicos </h3>
+
+                            @{ Html.BeginForm("MostrarTablaTurnosM", "AgendarTurnos"); }
+
+                            <div class="col-12 form-input">
+
+                                <div class="form-group text-left">
+                                    <asp:Label class="fa fa-user-md" style="color:beige">Medicos  </asp:Label>
+                                    @Html.DropDownList("listaMedicos", null, htmlAttributes: new { @class = "form-control", @style = "color:black" })
+                                </div>
+
+                                <div style="margin-bottom:15px">
+                                    <button id="btnAgendar" class="btn btn-info btn-lg"> Agendar </button>
+                                </div>
+                            </div>
+                            @{ Html.EndForm();}
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+        <!-- FORMULARIOS PARA MEDICO ARRIBA Y ENFERMERO ABAJO -->
+
+        @{
+            if (ViewBag.listaEnfermeros != null)
+            {
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-8 main-section">
+                        <div class="modal-content">
+
+                            <div class="col-12 user-img">
+                                <img src="~/Content/Imagenes/Logo.png" />
+                            </div>
+
+                            <h3 class="text-center" style="color:beige"> Agentar Turnos Enfermeros </h3>
+
+                            @{ Html.BeginForm("MostrarTablaTurnosE", "AgendarTurnos"); }
+
+                            <div class="col-12 form-input">
+
+                                <div class="form-group text-left">
+                                    <asp:Label class="fa fa-user-md" style="color:beige">Medicos  </asp:Label>
+                                    @Html.DropDownList("listaEnfermeros", null, htmlAttributes: new { @class = "form-control", @style = "color:black" })
+                                </div>
+
+                                <div style="margin-bottom:15px">
+                                    <button id="btnAgendar" class="btn btn-info btn-lg"> Agendar </button>
+                                </div>
+                            </div>
+                            @{ Html.EndForm();}
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+
+        <!-- ABAJO LAS TABLAS DE TURNOS -->
+
+        @if (ViewData["mostrarTabla"] != null)
+        {
+            int contador = 0;
+
+            <div class="container-fluid">
+
+                <input type="hidden" id="cedula" value="@ViewData["mostrarTabla"]" />
+                <input type="hidden" id="tipo" value="@ViewBag.tipo" />
+
+                <table id="tablaAgendarMedicos" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col"> Hora/Dias </th>
+                            <th scope="col"> Lunes </th>
+                            <th scope="col"> Martes </th>
+                            <th scope="col"> Miercoles </th>
+                            <th scope="col"> Jueves </th>
+                            <th scope="col"> Viernes </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        @{
+                            int horaI = 7;
+                            int horaF = 8;
+
+                            for (int i = 0; i < 12; i++)
+                            {
+                                DateTime fechaActual = DateTime.Now;
+
+                                contador = i + 1;
+
+                                <tr>
+                                    <td class="bg-info"> @horaI:00:00 - @horaF:00:00 </td>
+
+                                    @for (int j = 0; j < 5; j++)
+                                    {
+                                        fechaActual = fechaActual.AddDays(1);
+                                        <td class="td-blanco" id="@("td" + contador + "," + fechaActual.ToShortDateString() + "," + horaI + "," + horaF)"> </td>
+                                        contador += 12;
+                                    }
+
+                                </tr>
+
+                                horaI++;
+                                horaF++;
+
+                            }
+
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        }
+
+
+        <!-- INFORMACION PARA ENVIAR AL METODO RESERVAR SERVICIO-->
+        <!-- Modal -->
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title" style="color:azure"> Confirmar Agenda </h4>
+                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                    </div>
+
+                    @{ Html.BeginForm("AgendarTurnos", "AgendarTurnos"); }
+
+                        <!-- Modal body -->
+                        <div class="modal-body" style="color:azure">
+
+                            <div id="divCedula"> </div>
+                            <input type="hidden" id="cedulaR" name="cedulaEnvio" />
+                            <input type="hidden" id="tipoR" name="tipoEnvio" />
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button class="btn btn-success" id="btnConfirmar"> Confirmar </button>
+
+                    @{ Html.EndForm(); }
+
+                        <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancelar </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+            @{ Html.BeginForm("AgendarTurnos", "AgendarTurnos"); }
+
+            
+
+
+            @{ Html.EndForm(); }
+
+    </body>
+
+</html>
+
+

@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="assistseniorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="administrador">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edad" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="cuenta_usuario" Relationship="Self.fkEmailAdmin" FromRole="administrador" ToRole="cuenta_usuario" />
+  </EntityType>
+  <EntityType Name="cita_valoracion">
+    <Key>
+      <PropertyRef Name="idCita" />
+    </Key>
+    <Property Name="idCita" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ced_paciente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ced_medico" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <Property Name="hora" Type="Time" Nullable="false" />
+    <NavigationProperty Name="medico" Relationship="Self.FkCedMedicoTM" FromRole="cita_valoracion" ToRole="medico" />
+    <NavigationProperty Name="paciente" Relationship="Self.FkCedPacienteTM" FromRole="cita_valoracion" ToRole="paciente" />
+  </EntityType>
+  <EntityType Name="cuenta_usuario">
+    <Key>
+      <PropertyRef Name="email" />
+    </Key>
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="estado" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipo" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="administrador" Relationship="Self.fkEmailAdmin" FromRole="cuenta_usuario" ToRole="administrador" />
+    <NavigationProperty Name="paciente" Relationship="Self.FkClCorreo" FromRole="cuenta_usuario" ToRole="paciente" />
+    <NavigationProperty Name="enfermero" Relationship="Self.Fkemail" FromRole="cuenta_usuario" ToRole="enfermero" />
+    <NavigationProperty Name="medico" Relationship="Self.FkEmailMedico" FromRole="cuenta_usuario" ToRole="medico" />
+  </EntityType>
+  <EntityType Name="enfermero">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edad" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="fechaNacimiento" Type="DateTime" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="hojaVida" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="certificado" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="cuenta_usuario" Relationship="Self.Fkemail" FromRole="enfermero" ToRole="cuenta_usuario" />
+    <NavigationProperty Name="servicio" Relationship="Self.FkCedEnfermero" FromRole="enfermero" ToRole="servicio" />
+    <NavigationProperty Name="turno_enfermero" Relationship="Self.FkturnoECedula" FromRole="enfermero" ToRole="turno_enfermero" />
+  </EntityType>
+  <EntityType Name="medico">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edad" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="fechaNacimiento" Type="DateTime" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="especialidad" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="cita_valoracion" Relationship="Self.FkCedMedicoTM" FromRole="medico" ToRole="cita_valoracion" />
+    <NavigationProperty Name="cuenta_usuario" Relationship="Self.FkEmailMedico" FromRole="medico" ToRole="cuenta_usuario" />
+    <NavigationProperty Name="turno_medico" Relationship="Self.FkCedturnomedico" FromRole="medico" ToRole="turno_medico" />
+  </EntityType>
+  <EntityType Name="paciente">
+    <Key>
+      <PropertyRef Name="cedula" />
+    </Key>
+    <Property Name="cedula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="edad" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Nullable="false" />
+    <Property Name="genero" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="invalidez" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="alergias" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="rh" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="p_Coronarios" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="descripcion_Paciente" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="cita_valoracion" Relationship="Self.FkCedPacienteTM" FromRole="paciente" ToRole="cita_valoracion" />
+    <NavigationProperty Name="cuenta_usuario" Relationship="Self.FkClCorreo" FromRole="paciente" ToRole="cuenta_usuario" />
+    <NavigationProperty Name="servicio" Relationship="Self.FkCedPaciente" FromRole="paciente" ToRole="servicio" />
+  </EntityType>
+  <EntityType Name="servicio">
+    <Key>
+      <PropertyRef Name="idServicio" />
+    </Key>
+    <Property Name="idServicio" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipoServicio" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="duracion" Type="Int32" />
+    <Property Name="cedula_Enfermero" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="cedula_Paciente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="fecha" Type="DateTime" />
+    <Property Name="hora" Type="Time" />
+    <Property Name="estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="enfermero" Relationship="Self.FkCedEnfermero" FromRole="servicio" ToRole="enfermero" />
+    <NavigationProperty Name="paciente" Relationship="Self.FkCedPaciente" FromRole="servicio" ToRole="paciente" />
+  </EntityType>
+  <EntityType Name="turno_enfermero">
+    <Key>
+      <PropertyRef Name="idTurno" />
+    </Key>
+    <Property Name="idTurno" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <Property Name="horaInicial" Type="Time" Nullable="false" />
+    <Property Name="horaFinal" Type="Time" Nullable="false" />
+    <Property Name="estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ced_enfermero" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="enfermero" Relationship="Self.FkturnoECedula" FromRole="turno_enfermero" ToRole="enfermero" />
+  </EntityType>
+  <EntityType Name="turno_medico">
+    <Key>
+      <PropertyRef Name="idTurno" />
+    </Key>
+    <Property Name="idTurno" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <Property Name="horaInicial" Type="Time" Nullable="false" />
+    <Property Name="horaFinal" Type="Time" Nullable="false" />
+    <Property Name="estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ced_medico" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="medico" Relationship="Self.FkCedturnomedico" FromRole="turno_medico" ToRole="medico" />
+  </EntityType>
+  <Association Name="fkEmailAdmin">
+    <End Role="cuenta_usuario" Type="Self.cuenta_usuario" Multiplicity="1" />
+    <End Role="administrador" Type="Self.administrador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta_usuario">
+        <PropertyRef Name="email" />
+      </Principal>
+      <Dependent Role="administrador">
+        <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkCedMedicoTM">
+    <End Role="medico" Type="Self.medico" Multiplicity="1" />
+    <End Role="cita_valoracion" Type="Self.cita_valoracion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medico">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="cita_valoracion">
+        <PropertyRef Name="ced_medico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkCedPacienteTM">
+    <End Role="paciente" Type="Self.paciente" Multiplicity="1" />
+    <End Role="cita_valoracion" Type="Self.cita_valoracion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paciente">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="cita_valoracion">
+        <PropertyRef Name="ced_paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkClCorreo">
+    <End Role="cuenta_usuario" Type="Self.cuenta_usuario" Multiplicity="1" />
+    <End Role="paciente" Type="Self.paciente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta_usuario">
+        <PropertyRef Name="email" />
+      </Principal>
+      <Dependent Role="paciente">
+        <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Fkemail">
+    <End Role="cuenta_usuario" Type="Self.cuenta_usuario" Multiplicity="1" />
+    <End Role="enfermero" Type="Self.enfermero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta_usuario">
+        <PropertyRef Name="email" />
+      </Principal>
+      <Dependent Role="enfermero">
+        <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkEmailMedico">
+    <End Role="cuenta_usuario" Type="Self.cuenta_usuario" Multiplicity="1" />
+    <End Role="medico" Type="Self.medico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta_usuario">
+        <PropertyRef Name="email" />
+      </Principal>
+      <Dependent Role="medico">
+        <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkCedEnfermero">
+    <End Role="enfermero" Type="Self.enfermero" Multiplicity="0..1" />
+    <End Role="servicio" Type="Self.servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="enfermero">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="servicio">
+        <PropertyRef Name="cedula_Enfermero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkturnoECedula">
+    <End Role="enfermero" Type="Self.enfermero" Multiplicity="0..1" />
+    <End Role="turno_enfermero" Type="Self.turno_enfermero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="enfermero">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="turno_enfermero">
+        <PropertyRef Name="ced_enfermero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkCedturnomedico">
+    <End Role="medico" Type="Self.medico" Multiplicity="1" />
+    <End Role="turno_medico" Type="Self.turno_medico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medico">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="turno_medico">
+        <PropertyRef Name="ced_medico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FkCedPaciente">
+    <End Role="paciente" Type="Self.paciente" Multiplicity="0..1" />
+    <End Role="servicio" Type="Self.servicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paciente">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="servicio">
+        <PropertyRef Name="cedula_Paciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="assistseniorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="administrador" EntityType="Self.administrador" />
+    <EntitySet Name="cita_valoracion" EntityType="Self.cita_valoracion" />
+    <EntitySet Name="cuenta_usuario" EntityType="Self.cuenta_usuario" />
+    <EntitySet Name="enfermero" EntityType="Self.enfermero" />
+    <EntitySet Name="medico" EntityType="Self.medico" />
+    <EntitySet Name="paciente" EntityType="Self.paciente" />
+    <EntitySet Name="servicio" EntityType="Self.servicio" />
+    <EntitySet Name="turno_enfermero" EntityType="Self.turno_enfermero" />
+    <EntitySet Name="turno_medico" EntityType="Self.turno_medico" />
+    <AssociationSet Name="fkEmailAdmin" Association="Self.fkEmailAdmin">
+      <End Role="cuenta_usuario" EntitySet="cuenta_usuario" />
+      <End Role="administrador" EntitySet="administrador" />
+    </AssociationSet>
+    <AssociationSet Name="FkCedMedicoTM" Association="Self.FkCedMedicoTM">
+      <End Role="medico" EntitySet="medico" />
+      <End Role="cita_valoracion" EntitySet="cita_valoracion" />
+    </AssociationSet>
+    <AssociationSet Name="FkCedPacienteTM" Association="Self.FkCedPacienteTM">
+      <End Role="paciente" EntitySet="paciente" />
+      <End Role="cita_valoracion" EntitySet="cita_valoracion" />
+    </AssociationSet>
+    <AssociationSet Name="FkClCorreo" Association="Self.FkClCorreo">
+      <End Role="cuenta_usuario" EntitySet="cuenta_usuario" />
+      <End Role="paciente" EntitySet="paciente" />
+    </AssociationSet>
+    <AssociationSet Name="Fkemail" Association="Self.Fkemail">
+      <End Role="cuenta_usuario" EntitySet="cuenta_usuario" />
+      <End Role="enfermero" EntitySet="enfermero" />
+    </AssociationSet>
+    <AssociationSet Name="FkEmailMedico" Association="Self.FkEmailMedico">
+      <End Role="cuenta_usuario" EntitySet="cuenta_usuario" />
+      <End Role="medico" EntitySet="medico" />
+    </AssociationSet>
+    <AssociationSet Name="FkCedEnfermero" Association="Self.FkCedEnfermero">
+      <End Role="enfermero" EntitySet="enfermero" />
+      <End Role="servicio" EntitySet="servicio" />
+    </AssociationSet>
+    <AssociationSet Name="FkturnoECedula" Association="Self.FkturnoECedula">
+      <End Role="enfermero" EntitySet="enfermero" />
+      <End Role="turno_enfermero" EntitySet="turno_enfermero" />
+    </AssociationSet>
+    <AssociationSet Name="FkCedturnomedico" Association="Self.FkCedturnomedico">
+      <End Role="medico" EntitySet="medico" />
+      <End Role="turno_medico" EntitySet="turno_medico" />
+    </AssociationSet>
+    <AssociationSet Name="FkCedPaciente" Association="Self.FkCedPaciente">
+      <End Role="paciente" EntitySet="paciente" />
+      <End Role="servicio" EntitySet="servicio" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

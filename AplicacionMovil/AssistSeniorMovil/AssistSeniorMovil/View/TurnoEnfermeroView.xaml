@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AssistSeniorMovil.View.TurnoView"
+             BindingContext="{Binding Main, Source={StaticResource Key=Locator}}" 
+             Title="Consultar Turno De Enfermero">
+    <ContentPage.Content>
+        <StackLayout BindingContext="{Binding TurnoEnfermero}" Padding="8">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            
+            <StackLayout Grid.Column="0">
+                <Label FontAttributes="Bold"
+                                       FontSize="20"
+                                       Text="Cedula:"
+                                       TextColor="Black"
+                                       HorizontalTextAlignment="Center">
+             </Label>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label FontAttributes="Bold"
+                                       FontSize="20"
+                                       Text="{Binding Cedula}"
+                                       TextColor="Black"
+                                       >
+                </Label>
+            </StackLayout>
+            </Grid>
+
+            <ListView IsRefreshing="{Binding IsRefreshing}" ItemsSource="{Binding TurnosEnfermeros}" IsEnabled="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout VerticalOptions="Center" Grid.Column="0">
+                                    <Label
+                                       FontSize="15"
+                                       Text="{Binding FechaCompleta}"
+                                       TextColor="Black">
+
+
+                                    </Label>
+                                </StackLayout>
+                               
+
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

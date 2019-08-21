@@ -1,0 +1,187 @@
+﻿@using Dominio.EntidadesDominio;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="~/Scripts/bajarfire.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.3.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <title> Solicitudes de Enfermeros </title>
+
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background: #8ba987 fixed no-repeat center center;
+            background-image: url("../../Content/Imagenes/solEnfermeros.jpg");
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    @{
+        if (ViewBag.MensajeApDe != null)
+        {
+            <script>
+                alert("@ViewBag.MensajeApDe");
+            </script>
+        }
+    }
+
+
+    @if (ViewData["listaEnfermeros"] != null)
+    {
+        <div class="text-center" style="border-top:20px; background: rgba(1, 166, 42, 0.85)">
+            <h1 class="text-center" style="color: black"> ... Posibles Enfermeros ... </h1>
+        </div>
+        <br /> <br />
+
+        <div class="container">
+            <div class="col-xs-8">
+
+                <table id="tablaEnfermeros" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="text-center" style="color: azure">     </th>
+                            <th scope="col" class="text-center" style="color: azure"> Cedula </th>
+                            <th scope="col" class="text-center" style="color: azure"> Nombre </th>
+                            <th scope="col" class="text-center" style="color: azure"> Apellido </th>
+                            <th scope="col" class="text-center" style="color: azure"> Decisión </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            int num = 0;
+                            foreach (var i in (ViewData["listaEnfermeros"] as IEnumerable<Enfermero>))
+                            {
+                                num = num + 1;
+                                Html.BeginForm("vistaAprobarSolicitudesEnfermeros", "AprobarEnfermeros");
+
+                                <tr class="text-center bg-light" style="opacity: 0.8" ;>
+                                    <td> @num </td>
+                                    <td> @i.cedula </td>
+                                    <td id="nom1" name="@i.nombre"> @i.nombre </td>
+                                    <td> @i.apellido </td>
+                                    <td>
+                                        <input type="hidden" name="cedula" value="@i.cedula" />
+                                        <button class="btn btn-danger" style="background-color:burlywood"> Analizar </button>
+                                    </td>
+                                </tr>
+                                Html.EndForm();
+                            }
+
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    }
+
+    @if (ViewData["InfoEnfermero"] != null)
+    {
+
+        <div class="text-center" style="border-top:20px">
+            <h1 class="text-center" style="color:black; background: rgba(1, 166, 42, 0.85)"> ... Solicitud ...  </h1>
+        </div>
+        <br /> <br />
+
+        <div class="container">
+            <div class="col-xs-8">
+
+                <table id="tablaEnfermero" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="text-center"> Cedula </th>
+                            <th scope="col" class="text-center"> Nombre </th>
+                            <th scope="col" class="text-center"> Apellido </th>
+                            <th scope="col" class="text-center"> Dirección </th>
+                            <th scope="col" class="text-center"> Edad </th>
+                            <th scope="col" class="text-center"> Teléfono </th>
+                            <th scope="col" class="text-center"> Género </th>
+                            <th scope="col" class="text-center"> Nacimiento </th>
+                            <th scope="col" class="text-center"> Hoja de vida </th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            var datos = (Enfermero)ViewData["InfoEnfermero"];
+
+                            <input type="hidden" id="ced" value="@datos.cedula" />
+
+                            <tr class="text-center bg-light" style="opacity: 0.8;">
+                                <td> @datos.cedula </td>
+                                <td> @datos.nombre </td>
+                                <td> @datos.apellido </td>
+                                <td> @datos.direccion </td>
+                                <td> @datos.edad </td>
+                                <td> @datos.telefono </td>
+                                <td> @datos.genero </td>
+                                <td> @datos.fechaNacimiento.ToShortDateString()</td>
+                                <td> 
+                                    <div id="divhref">
+                                        <a href="hola1"> Descargar Hoja de Vida </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        Html.BeginForm("estado", "AprobarEnfermeros");
+        <div class="text-center" style="color:black">
+            <div>
+                <input type="hidden" name="cedula" value="@datos.cedula" />
+                <button id="btnAprobar" class="btn btn-danger" style="background-color:green" name="estado" value="Aprobar"> Aprobar </button>
+                <button id="btnDesaprobar" class="btn btn-danger" style="background-color:red" name="estado" value="Desaprobar"> Desaprobar </button>
+            </div>
+        </div>
+        Html.EndForm();
+
+    }
+
+
+
+    <script>
+        var config = {
+            apiKey: "AIzaSyA4wwYqVnY3f9MavfOAvKlR_YSei9FBnq0",
+            authDomain: "uploadfiletest-b3814.firebaseapp.com",
+            databaseURL: "https://uploadfiletest-b3814.firebaseio.com",
+            projectId: "uploadfiletest-b3814",
+            storageBucket: "uploadfiletest-b3814.appspot.com",
+            messagingSenderId: "13214318803"
+        };
+
+        firebase.initializeApp(config);
+    </script>
+</body>
+  
+</html3

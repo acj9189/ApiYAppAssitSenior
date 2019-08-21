@@ -1,0 +1,249 @@
+﻿@using Dominio.EntidadesDominio;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="~/Scripts/ScriptReservaServicio.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/EstilosReservarServicio.css" rel="stylesheet" type="text/css" />
+
+    <title> Reservar Servicio</title>
+</head>
+
+
+<body class="Fondo">
+
+    <div class="text-center" style="border-top:20px">
+        <h3 class="text-center" style="color:black"> Horarios </h3>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-4">
+                <div class="col-sm-12">
+                    <div class="card mt-2  Caja">
+                        <div class="card-body">
+                            <div style="color:beige" id="paciente" name="@Session["Email"]"> Paciente: @Session["Email"] </div>
+                            <div style="color:beige" id="tipoS" name="@ViewBag.tipoS"> Servicio a Pedir: @ViewBag.tipoS </div>
+                            <div style="color:beige" id="duracionS" name="@ViewBag.duracion"> Duracion del Servicio: @ViewBag.duracion </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-4 offset-1">
+                <img alt="" src="https://social.msdn.microsoft.com/Forums/getfile/1246342" />
+            </div>
+
+            <div class="col-xs-1 offset-3">
+                <button id="btnReservar" class="btn btn-success btn-lg" data-toggle="modal"> Reservar Servicio </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <br /> <br />
+
+    <div class="container-fluid">
+        <table id="tablaTurnos" class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col"> Hora/Dias </th>
+                    <th scope="col"> Lunes </th>
+                    <th scope="col"> Martes </th>
+                    <th scope="col"> Miercoles </th>
+                    <th scope="col"> Jueves </th>
+                    <th scope="col"> Viernes </th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+
+                @if (ViewData["listaturnos"] != null)
+                {
+                    foreach (var i in (ViewData["listaTurnos"] as IEnumerable<TurnoEnfermero>))
+                    {
+                        <tr>
+                            <td class="bg-info"> @i.horaInicial - @i.horaFinal </td>
+
+                            <input type="hidden" id="enfermero" value="@i.ced_enfermero" />
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Monday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="td-pedidoVerde" name="'@i.fecha.ToShortDateString()'" id="@("td" + i.idTurno)">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Tuesday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="td-pedidoVerde" name="'@i.fecha.ToShortDateString()'" id="@("td" + i.idTurno)"> <a href=""> </a> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Wednesday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="td-pedidoVerde" name="'@i.fecha.ToShortDateString()'" id="@("td" + i.idTurno)"> </td>
+
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Thursday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="td-pedidoVerde" name="'@i.fecha.ToShortDateString()'" id="@("td" + i.idTurno)"> <a href=""> </a> </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light"> </td>
+                                }
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Friday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="td-pedidoVerde" name="'@i.fecha.ToShortDateString()'" id="@("td" + i.idTurno)"> </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-danger"> </td>
+                                }
+                            }
+
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- INFORMACION PARA ENVIAR AL METODO RESERVAR SERVICIO-->
+    <!-- Modal -->
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"> Servicio a Reservar </h4>
+                    <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                </div>
+
+                @{ Html.BeginForm("ReservarServicio", "ReservarServicio"); }
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <div id="divTipo">  </div>
+                    <input type="hidden" name="tipoServicio" id="tipoServicioBD" />
+
+                    <div id="divDuracion"> </div>
+                    <input type="hidden" name="duracion" id="duracionBD" />
+
+                    <div id="divEnfermero"> </div>
+                    <input type="hidden" name="enfermero" id="enfermeroBD" />
+
+                    <input type="hidden" name="paciente" value="@Session["Email"]" />
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="btnConfirmar"> Confirmar </button>
+
+                    @{ Html.EndForm(); }
+
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"> Cancelar </button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+    </html>

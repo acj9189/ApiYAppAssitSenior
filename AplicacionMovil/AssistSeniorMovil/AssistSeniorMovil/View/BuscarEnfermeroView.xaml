@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AssistSeniorMovil.View.BuscarEnfermero"
+             BindingContext="{Binding Main, Source={StaticResource Key=Locator}}" 
+             Title="Buscar Enfermero">
+    <ContentPage.Content>
+        <StackLayout BindingContext="{Binding BuscarEnfermero}">
+            <Entry Placeholder="Ingresar Cedula" Keyboard="Telephone" Text="{Binding CedulaSeleccionada}"></Entry>
+            <Entry Placeholder="Ingresar Numero De Horas" Keyboard="Telephone" Text="{Binding NumeroDeHoras}"></Entry>
+            <Picker  SelectedIndex="{Binding TipoServicio}" HorizontalOptions="FillAndExpand" Title="Seleccionar Servicio">
+                <Picker.Items>
+                   <x:String>Acompañamiento A Cita Medica</x:String>
+                    <x:String>Pasear Contigo Y Tu Mascota</x:String>
+                    <x:String>Salir A Caminar</x:String>
+                </Picker.Items>
+            </Picker>
+            <DatePicker Date="{Binding FechaSeleccionada}" MinimumDate="{Binding FechaMinima}"></DatePicker>
+            <Button Command="{Binding BuscarCommand}" Text="Buscar Enfermero" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

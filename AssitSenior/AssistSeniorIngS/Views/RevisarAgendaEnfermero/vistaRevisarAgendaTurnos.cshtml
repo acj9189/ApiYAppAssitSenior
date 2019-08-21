@@ -1,0 +1,169 @@
+﻿@using Dominio.EntidadesDominio
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/EstilosReservarServicio.css" rel="stylesheet" type="text/css" />
+
+        <title> Revisar Agenda Turnos</title>
+    </head>
+
+    <body class="Fondo">
+
+        <div class="text-center" style="border-top:20px">
+        <h3 class="text-center" style="color:black"> Tu Agenda Semanal </h3>
+    </div>
+
+
+    <div class="container-fluid">
+        <table id="tablaTurnos" class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col"> Hora/Dias </th>
+                    <th scope="col"> Lunes </th>
+                    <th scope="col"> Martes </th>
+                    <th scope="col"> Miercoles </th>
+                    <th scope="col"> Jueves </th>
+                    <th scope="col"> Viernes </th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+
+                @if (ViewData["listaturnos"] != null)
+                {
+                    foreach (var i in (ViewData["listaTurnos"] as IEnumerable<TurnoEnfermero>))
+                    {
+                        <tr>
+                            <td class="bg-info"> @i.horaInicial - @i.horaFinal </td>
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Monday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="td-pedidoVerde"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Tuesday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="td-pedidoVerde"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Wednesday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="td-pedidoVerde"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                }
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Thursday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="td-pedidoVerde"> <a href=""> </a> </td>
+                                    <td class="bg-light">  </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-light"> </td>
+                                }
+                            }
+
+                            @if (i.fecha.DayOfWeek.ToString().Equals("Friday"))
+                            {
+                                if (i.estado.Equals("Disponible"))
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="td-pedidoVerde"> </td>
+                                }
+
+                                else
+                                {
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light">  </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-light"> </td>
+                                    <td class="bg-danger"> </td>
+                                }
+                            }
+
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+        
+    </body>
+
+</html>

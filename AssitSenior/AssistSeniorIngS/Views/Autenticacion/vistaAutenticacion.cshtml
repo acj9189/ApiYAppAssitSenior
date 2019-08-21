@@ -1,0 +1,138 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/EstilosLogin.css" rel="stylesheet" type="text/css" />
+
+        <title> Login Assist Senior</title>
+
+    </head>
+
+    <body class="FondoLogin">
+
+        @{
+            if (@ViewData["MsjRegistroE"] != null)
+            {
+                <script> alert("@ViewData["MsjRegistroE"]"); </script>
+            }
+
+            if (ViewData["MsjRegistroP"] != null)
+            {
+                <script> alert("@ViewData["MsjRegistroP"]"); </script>
+            }
+        }
+
+        <header class="main-header col-sm-12"></header>
+
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+
+                    <div class="col-12 user-img">
+                        <img src="~/Content/Imagenes/LoginFace.png" />
+                    </div>
+
+                    <h3 class="text-center">
+                        <asp:span class="fa fa-sign-in" style="color:beige"> Accede A Tu Cuenta </asp:span>
+                    </h3>
+
+                    @{
+                        if (@ViewData["MensajeLogueo"] != null)
+                        {
+                            <p class="alert alert-danger"> @ViewData["MensajeLogueo"] </p>
+                        }
+                    }
+
+                    <div class="col-12 form-input">
+
+                        @{ Html.BeginForm("Login", "Autenticacion"); }
+
+                        <div class="form-group text-left">
+                            <asp:Label for="email" Text="Correo Electronico" class="fa fa-user" style="color:beige" /> Nombre De Usuario </asp:Label>
+                            <input name="Email" value="" class="form-control" style="color:black">
+                        </div>
+
+                        <div class="form-group text-left">
+                            <asp:Label for="password" class="fa fa-unlock-alt" style="color:beige" /> Contraseña </asp:Label>
+                            <input type="password" name="Pass" value="" class="form-control" style="color:black">
+                        </div>
+
+                        <div class="text-left" style="margin-bottom:3px">
+                            @Html.ActionLink("Solicite su cuenta Aqui", "vistaPerfilRegistro", "PerfilRegistro", null, new { @style = "color:#00C6EE;" })
+                        </div>
+
+                        <div class="text-left" style="margin-bottom:10px">
+                            @Html.ActionLink("Ha Olvidado su contraseña ?", "Recuperar", "Login", new { @style = "color:#00C6EE;" })
+                        </div>
+
+                        <div class="text-left" style="margin-bottom:10px">
+                            <button id="btnIniciar" align="center" class="btn btn-info btn-lg"> Entrar </button>
+                        </div>
+
+                        @{ Html.EndForm(); }
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <footer class="footer-container">
+            <div class="footer-main">
+
+                <div class="footer-columna">
+                    <h3> Suscribete </h3>
+                    <input type="email" placeholder="Escriba aqui su correo" />
+                    <input type="submit" value="Suscribirse">
+                </div>
+
+                <div class="footer-columna">
+                    <h3> Direccion </h3>
+                    <span class="fa fa-map-marker">  Avenida Paralela N° 12-45 </span>
+                    <span class="fa fa-phone">  +(57) 888 88 88 </span>
+                    <span class="fa fa-envelope">  laterceraedad@gmail.com </span>
+                </div>
+
+                <div class="footer-columna">
+                    <h3> Sobre Nosotros </h3>
+                    <p>
+                        Somos una institucion al servicio de la comunidad que le brinda acompañamiento en todo momento,
+                        basados en los mas altos estandares de calidad para que usted y su familia siempre esten
+                        protegidos, a mano de los mas altos profesionales capacitados para que su comodidad y atencion sean
+                        siempre nuestra mejor opcion.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="footer-copy-redes">
+                <div class="main-copy-redes">
+                    <div class="footer-copy">
+                        &copy; 2018, Todos Los Derechos Reservados - | La Tercera Edad |.
+                    </div>
+
+                    <div class="footer-redes">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>

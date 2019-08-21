@@ -1,0 +1,264 @@
+﻿//CSS STYLES
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Auxheader {
+    width: 100%;
+    background: rgba(033, 033, 033, 0.85);
+    height: 56px;
+}
+
+
+#btn-menu{
+    display:none;
+}
+
+.Auxheader label{
+    display: none;
+    padding: 20px;
+}
+
+.Auxheader label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.Navegacion .Menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.Menu li:hover {
+    background: rgba(128, 128, 128, 0.85);
+}
+
+.Menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 1%;
+    letter-spacing: 3px;
+}
+
+.Zona-Interactiva {
+    background: rgba(033, 033, 033, 0.85);
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.Zona-Interactiva span{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.Zona-Interactiva label {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+/* SUB MENUS */
+
+.Navegacion .Menu > li > .SubMenu {
+    position: absolute;
+    z-index: 1000;
+    background: rgba(033, 033, 033, 0.85);
+    list-style: none;
+    display: none;
+}
+
+.Navegacion .Menu > li:hover > .SubMenu {
+    display: block;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:1100px) {
+
+    .Auxheader label {
+        display: block;
+    }
+
+    .Navegacion {
+        position: absolute;
+        background: rgba(033, 033, 033, 0.85);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .Navegacion .Menu {
+        flex-direction: column;
+    }
+
+    .Menu > li {
+        border-top: 1px solid #fff;
+        width: 100%;
+    }
+
+    #btn-menu:checked ~ .Navegacion {
+        margin: 0;    
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .Navegacion .Menu > li > .SubMenu {
+        position: unset;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.85);
+        list-style: none;
+        display: none;
+    }
+
+}
+
+
+
+
+/* ESTILO SLIDE*/
+
+.carousel-inner img {
+    width: 100%;
+}
+
+
+
+/*ESTILOS ZONA INTERACTIVA */
+.ListaZonaInteractiva {
+    margin: 20px;
+    list-style: none;
+}
+
+.ListaZonaInteractiva li {
+    display: inline-block;
+    background-color: #e6e6e6;
+}
+
+.ListaZonaInteractiva li:hover {
+    background-color: #6f6f6f;
+}
+
+#Lista2{
+    display: none;
+}
+
+#btn-vermas{
+    display: none;
+}
+
+
+iframe {
+    margin: 20px;
+}
+
+/* ESTILOS FOOTER */
+
+footer {
+width: 100%;
+font-family: Raleway;
+}
+
+.footer-container {
+width: 100%;
+background: #272727;
+color: #fff;
+}
+
+.footer-main {
+width: 98%;
+max-width: 1000px;
+margin: auto;
+padding: 50px 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+width: calc(100% / 3);
+text-align: justify;
+}
+
+.footer-main .footer-columna:nth-child(2) {
+padding: 0 20px;
+}
+
+.footer-main .footer-columna h3 {
+font-size: 32px;
+color: #00C6EE;
+margin-bottom: 20px;
+}
+
+
+.footer-main .footer-columna span p {
+display: inline-block;
+margin-left: 5px;
+margin-bottom: 15px;
+font-family: Ralewway;
+}
+
+
+.footer-copy-redes {
+width: 100%;
+background: #000;
+border-top: 3px solid #fff;
+}
+
+
+.main-copy-redes {
+width: 98%;
+max-width: 1000px;
+padding: 15px 0;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.main-copy-redes .footer-copy {
+width: 70%;
+color: #fff;
+}
+
+.main-copy-redes .footer-redes {
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+.main-copy-redes .footer-redes a {
+display: inline-block;
+text-decoration: none;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border-radius: 50%;
+background: #fff;
+color: #000;
+text-align: center;
+}
+

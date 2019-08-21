@@ -1,0 +1,95 @@
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\Google.Protobuf.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\MySql.Data.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\Google.Protobuf.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\MySql.Data.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\Google.Protobuf.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\MySql.Data.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\Google.Protobuf.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\MySql.Data.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Google.Protobuf.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Google.Protobuf.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\WebService\Persistencia\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\user\Desktop\WebService\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\user\Desktop\WebService\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\WebService\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\Users\user\Desktop\WebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\user\Desktop\WebService\Persistencia\obj\Debug\Persistencia.pdb

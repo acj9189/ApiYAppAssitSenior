@@ -1,0 +1,232 @@
+﻿@using Dominio.EntidadesDominio;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <title> Agendar valoración de primera vez </title>
+    <style>
+        <style >
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background: #8ba987 fixed no-repeat center center;
+            background-image: url("../../Content/Imagenes/AgendarCita.jpg");
+            background-size: 100% 100%;
+        }
+    </style>  
+</head>
+
+<body>
+    @{
+        if (ViewBag.MensajeApDe != null)
+        {
+            <script>
+                alert("@ViewBag.MensajeApDe");
+            </script>
+        }
+
+        if (ViewBag.MensajeNoHayMedicos != null)
+        {
+            <script>
+                alert("@ViewBag.MensajeNoHayMedicos");
+            </script>
+        }
+    }
+
+
+    @if (ViewData["listaPacientes"] != null)
+    {
+        <div class="text-center" style="border-top:20px">
+            <h2 class="text-center" style="color: white; background: rgba(4, 4, 40, 0.85)"> ...Agende una cita... </h2>
+        </div>
+        <p> </p>
+        <div class="container">
+            <div class="col-xs-8" style=" height:300px; overflow:auto; opacity:1;">
+
+                <table id="tablaPendientes" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="text-center">     </th>
+                            <th scope="col" class="text-center"> Cedula </th>
+                            <th scope="col" class="text-center"> Nombre </th>
+                            <th scope="col" class="text-center"> Apellido </th>
+                            <th scope="col" class="text-center"> Invalidez </th>
+                            <th scope="col" class="text-center"> seleccione uno: </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @{
+                            int num = 0;
+                            foreach (var i in (ViewData["listaPacientes"] as IEnumerable<Paciente>))
+                            {
+                                num = num + 1;
+                                Html.BeginForm("vistaAgendarCitaPaciente", "AgendarCitaPaciente");
+                                <tr class="text-center bg-light" style="opacity: 0.8" ;>
+                                    <td> @num </td>
+                                    <td> @i.cedula </td>
+                                    <td> @i.nombre </td>
+                                    <td> @i.apellido </td>
+                                    <td> @i.invalidez </td>
+                                    <td class="text-center bg-light">
+                                        <input type="hidden" name="cedula" value="@i.cedula" />
+                                        <input type="hidden" name="nombre" value="@i.nombre" />
+                                        <input type="hidden" name="tipo" value="P" />
+                                        <button id="btnAnalizar" class="btn btn-danger" style="background: rgba(4, 4, 40, 0.85); height: 23px; font-size:8px"> X </button>
+                                    </td>
+                                </tr>
+                                Html.EndForm();
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-xs-8">
+
+                @{Html.BeginForm("vistaAgendarCitaPaciente", "AgendarCitaPaciente");}
+
+                <table id="tablaInfo" class="table accordion">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="container" style="opacity: 1">
+                                    <div style="color: white; background: rgba(4, 4, 40, 0.85)">  Paciente seleccionado: </div>
+                                    <div style="color: black; background: azure; opacity: 0.8">  Documento: @ViewBag.Cpaciente </div>
+                                    <div style="color: black; background: azure; opacity: 0.8">  Nombre: @ViewBag.Npaciente </div>
+                                </div>
+                            </th>
+
+
+                            <th>
+                                <div class="form-group" style="color: white; background: rgba(4, 4, 40, 0.85)">  Medicos disponibles: </div>
+                                <asp:Label for="cedula" style="color:white; background: rgba(4, 4, 40, 0.85)"> </asp:Label>
+                                <select class="form-control" name="cedula" style="color:black">
+                                    @{
+                                        foreach (var i in (ViewData["listaMedicos"] as IEnumerable<Medico>))
+                                        {
+                                            <option value="@i.cedula">@i.nombre @i.apellido </option>
+                                        }
+                                    }
+                                </select>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <div class="text-center">
+                    <input type="hidden" name="cedPaciente" value="@ViewBag.Cpaciente" />
+                    <input type="hidden" name="nombre" value="nadie" />
+                    <input type="hidden" name="tipo" value="M" />
+
+                    @if (ViewBag.Cpaciente != null)
+                    {
+                        <button id="btnBuscar" class="btn btn-danger" style="background: rgba(4, 4, 40, 0.85)"> Ir a la agenda </button>
+                    }
+
+                </div>
+
+                @{Html.EndForm();}
+
+            </div>
+        </div>
+    }
+
+    @if (ViewData["listaTurnos"] != null)
+    {
+        <table id="tablaInfo" class="table accordion">
+            <thead>
+                <tr>
+                    <th>
+                        <div class="container" style="opacity: 1">
+                            <div style="color: white; background: rgba(4, 4, 40, 0.85)">  Paciente seleccionado: </div>
+                            <div style="color: black; background: azure; opacity: 0.8" id="paciente">  Documento: @ViewBag.Cpaciente </div>
+                        </div>
+                    </th>
+
+                    <th>
+                        <div class="container" style="opacity: 1">
+                            <div style="color: white; background: rgba(4, 4, 40, 0.85)">  Médico seleccionado: </div>
+                            <div style="color: black; background: azure; opacity: 0.8" id="Cmedico">  Documento: @ViewBag.medico </div>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+
+        Html.BeginForm("GuardarCita", "AgendarCitaPaciente");
+
+            <div>
+                <h1 class="text-center" style="color: white; background: rgba(4, 4, 40, 0.85)"> ...Turnos... </h1>
+
+                <div class="col-xs-8" style="opacity:1">
+
+                    <table id="tablaTurnos" class="table table-bordered">
+                    
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col" class="text-center"> Id del turno </th>
+                                <th scope="col" class="text-center"> Fecha </th>
+                                <th scope="col" class="text-center"> Hora inicial </th>
+                                <th scope="col" class="text-center"> Hora final </th>
+                                <th scope="col" class="text-center"> Estado </th>
+                                <th scope="col" class="text-center"> Elegir </th>
+                            </tr>
+                        </thead>
+                    
+                        <tbody>
+                        
+                            @{
+                                foreach (var i in (ViewData["listaTurnos"] as IEnumerable<TurnoMedico>))
+                                {
+                                    <tr class="text-center bg-light" style="opacity: 0.8">
+                                        <td> @i.idTurno </td>
+                                        <td> @i.fecha.ToShortDateString() </td>
+                                        <td> @i.horaInicial </td>
+                                        <td> @i.horaFinal </td>
+                                        <td> @i.estado </td>
+
+                                        @if (i.estado == "Disponible")
+                                        {
+                                            <td class="text-center bg-light">
+                                                <input type="radio" name="idTurno" value="@i.idTurno" />
+                                            </td>
+                                        }
+
+                                        else
+                                        {
+                                            <td> --- </td>
+                                        }
+                                    </tr>
+                                }
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="text-center" style="color:black">
+                    <input type="hidden" name="cedulaP" value="@ViewBag.Cpaciente"/>
+                    <input type="hidden" name="cedulaM" value="@ViewBag.medico" />
+                    <button id="btnAgendar" class="btn btn-danger" style="background: rgba(4, 4, 40, 0.85);"> Agendar Cita </button>
+                </div>
+
+            </div>
+
+        Html.EndForm();
+    }
+
+</body>  
+</html>

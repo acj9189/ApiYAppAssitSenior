@@ -1,0 +1,55 @@
+﻿
+.main-section {
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0;
+}
+
+
+.modal-content {
+    background: rgba(033, 033, 033, 0.8);
+    padding: 0 18px;
+    border-radius: 5px;
+}
+
+button{
+    width: 120px;
+}
+
+
+.FondoRegistro {
+    background-image: url(Imagenes/FondoRegistro.jpg);
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualizaciÃ³n para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+}
+
+.CajaFormulario {
+    background: rgba(033, 033, 033, 0.85) /* Green background with 30% opacity */
+}
+
+.main-header {
+    /*background: rgba(033, 033, 033, 0.8);*/
+    background-image: url(Imagenes/Banner.PNG);
+    width: 100%;
+    opacity: 0.85;
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen de fondo se reescala automÃ¡ticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    height: 140px;
+}
+
+.TextoDescripcion {
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}

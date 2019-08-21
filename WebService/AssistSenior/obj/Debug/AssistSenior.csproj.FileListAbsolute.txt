@@ -1,0 +1,550 @@
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\AssistSenior.dll.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\AssistSenior.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\AssistSenior.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csc.exe
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csc.exe.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csc.rsp
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csi.exe
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csi.exe.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\csi.rsp
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.AppContext.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Console.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.IO.Compression.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Claims.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.ValueTuple.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\vbc.exe
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\vbc.exe.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\vbc.rsp
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Antlr3.Runtime.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\BouncyCastle.Crypto.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Google.Protobuf.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\MySql.Data.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Newtonsoft.Json.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Net.Http.Formatting.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Helpers.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Http.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Http.WebHost.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Mvc.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Optimization.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Razor.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.Razor.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\WebGrease.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Google.Protobuf.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\MySql.Data.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Newtonsoft.Json.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Net.Http.Formatting.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Helpers.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Http.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Http.WebHost.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Mvc.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Optimization.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.Razor.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Web.WebPages.Razor.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Antlr3.Runtime.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Helpers.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Http.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Mvc.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Optimization.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.Razor.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.WebPages.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\obj\Debug\AssistSenior.csprojAssemblyReference.cache
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CopyComplete
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\obj\Debug\AssistSenior.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\obj\Debug\AssistSenior.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Persistencia.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Persistencia.pdb
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\Persistencia.dll.config
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\EntityFramework.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\EntityFramework.SqlServer.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\EntityFramework.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\EntityFramework.SqlServer.xml
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\MySql.Data.EntityFramework.dll
+C:\Users\FAMILIA VERGARA\source\repos\WebService\AssistSenior\bin\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\AssistSenior.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\AssistSenior.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\AssistSenior.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csc.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csc.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csc.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csi.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csi.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\csi.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.AppContext.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Console.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.IO.Compression.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Claims.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.ValueTuple.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\vbc.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\vbc.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\vbc.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Antlr3.Runtime.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\BouncyCastle.Crypto.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\EntityFramework.SqlServer.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Google.Protobuf.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\MySql.Data.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\MySql.Data.EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Newtonsoft.Json.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Net.Http.Formatting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Helpers.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Http.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Http.WebHost.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Mvc.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Optimization.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Razor.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.Razor.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\WebGrease.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Persistencia.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Persistencia.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\EntityFramework.SqlServer.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Google.Protobuf.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\MySql.Data.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Newtonsoft.Json.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Net.Http.Formatting.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Helpers.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Http.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Http.WebHost.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Mvc.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Optimization.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.Razor.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Web.WebPages.Razor.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Antlr3.Runtime.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Http.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.Razor.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\obj\Debug\AssistSenior.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CopyComplete
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\obj\Debug\AssistSenior.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\WebService\AssistSenior\obj\Debug\AssistSenior.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.AppContext.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Console.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Compression.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Claims.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.ValueTuple.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.rsp
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Antlr3.Runtime.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\BouncyCastle.Crypto.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.SqlServer.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Google.Protobuf.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.EntityFramework.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Newtonsoft.Json.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Net.Http.Formatting.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Helpers.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.WebHost.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Mvc.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Optimization.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Razor.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Razor.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\WebGrease.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.dll.config
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.SqlServer.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Google.Protobuf.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.EntityFramework.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Newtonsoft.Json.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Net.Http.Formatting.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Helpers.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.WebHost.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Mvc.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Optimization.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Razor.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Razor.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Antlr3.Runtime.pdb
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Http.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Razor.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csprojAssemblyReference.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CoreCompileInputs.cache
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CopyComplete
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.dll
+C:\Users\Julie Rios\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.dll.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\AssistSenior.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.exe
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.exe.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csc.rsp
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.exe
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.exe.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\csi.rsp
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.AppContext.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Console.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.exe
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.exe.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\vbc.rsp
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Antlr3.Runtime.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\BouncyCastle.Crypto.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Google.Protobuf.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.EntityFramework.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Newtonsoft.Json.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Helpers.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Mvc.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Optimization.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Razor.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\WebGrease.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Persistencia.dll.config
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Google.Protobuf.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\MySql.Data.EntityFramework.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Newtonsoft.Json.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Helpers.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Mvc.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Optimization.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.Razor.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Antlr3.Runtime.pdb
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Helpers.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Http.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Mvc.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.Razor.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csprojAssemblyReference.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CoreCompileInputs.cache
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CopyComplete
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.dll
+C:\Users\user\Dropbox\DevelopCrew - Software 3 2019-01\TerceraEntrega\WebService\AssistSenior\obj\Debug\AssistSenior.pdb
+C:\Users\user\Desktop\WebService\AssistSenior\bin\AssistSenior.dll.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\AssistSenior.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\AssistSenior.pdb
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csc.exe
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csi.exe
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\WebService\AssistSenior\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\EntityFramework.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Google.Protobuf.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\MySql.Data.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\MySql.Data.EntityFramework.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Persistencia.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Http.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\WebGrease.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Persistencia.pdb
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Persistencia.dll.config
+C:\Users\user\Desktop\WebService\AssistSenior\bin\EntityFramework.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Google.Protobuf.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\MySql.Data.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\MySql.Data.EntityFramework.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Http.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\WebService\AssistSenior\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Helpers.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Http.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Mvc.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.Razor.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.WebPages.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\user\Desktop\WebService\AssistSenior\obj\Debug\AssistSenior.csprojAssemblyReference.cache
+C:\Users\user\Desktop\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\WebService\AssistSenior\obj\Debug\AssistSenior.csproj.CopyComplete
+C:\Users\user\Desktop\WebService\AssistSenior\obj\Debug\AssistSenior.dll
+C:\Users\user\Desktop\WebService\AssistSenior\obj\Debug\AssistSenior.pdb
